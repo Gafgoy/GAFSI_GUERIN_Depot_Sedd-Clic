@@ -10,5 +10,11 @@ package speed.clikgraphique_gafsi_guerin_1;
  * @author hgafs
  */
 public class Joueur {
-    
+     String Nom;
+
+
+ Joueur(String nom_joueur){
+        Nom = nom_joueur;
+        
+ }
 }
