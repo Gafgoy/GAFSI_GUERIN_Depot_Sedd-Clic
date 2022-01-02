@@ -11,30 +11,26 @@ package speed.clikgraphique_gafsi_guerin_1;
  */
 public class Bouton {
     
+ boolean etreAllume; // definie l'état du bouton
+    //String couleur;
+    //String couleur_vide;
 
-   String Couleur;
-    boolean etreAllume; 
-    
-    public Bouton() {
-        Couleur = "blanc";
-        etreAllume = false;
-        
+    public Bouton(){ // constructeur de bouton
+
+    etreAllume = false; 
+     //couleur="R";
+     //couleur_vide ="G";
     }
 
+    public void Alummer_bouton(){// renvoie vrai si le bouton est allumer 
+    etreAllume = true;
+    
+    }
+
+    public void Eteindre_bouton(){ // renvoie vrai si le bouton est eteint
+    etreAllume =false; 
    
     
-    public void allumerUnBouton() {
-        etreAllume = true; // on utilisera cette fonction pour allumer (true) un bouton de la grille                
-               
-    }
-    
-    public void eteindreUnBouton() {
-        etreAllume = false; // on utilisera cette fonction pour eteindre (false) le dernier bouton allumé de la grille
-       
-    }
-    
-    public void colorationBouton(String typeJeton) { 
-        Couleur = typeJeton;
     }
  }
 

@@ -14,7 +14,10 @@ public class SpeedClikGraphique_Gafsi_Guerin_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+           Partie partie = new Partie();
+        
+        partie.deroulementPartie();
+        
     }
     
 }
