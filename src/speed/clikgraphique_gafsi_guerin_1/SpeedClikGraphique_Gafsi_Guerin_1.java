@@ -13,11 +13,11 @@ public class SpeedClikGraphique_Gafsi_Guerin_1 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
            Partie partie = new Partie();
         
-        partie.deroulementPartie();
+        partie.deroulementPartie();µ 
         
-    }
+    }*/
     
 }
