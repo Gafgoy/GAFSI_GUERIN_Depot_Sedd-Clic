@@ -5,8 +5,6 @@
  */
 package speed.clikgraphique_gafsi_guerin_1;
 
-import java.util.Random;
-import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -350,10 +348,8 @@ public class Fenetredejeu extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Fenetredejeu().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Fenetredejeu().setVisible(true);
         });
     }
 
